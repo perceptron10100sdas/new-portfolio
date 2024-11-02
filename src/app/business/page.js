@@ -14,7 +14,7 @@ transition={{duration:2, ease:"anticipate" }}p className='text-center  sm:text-l
 <div className='  sm:flex justify-between'>
       <motion.div initial={{ y:200,opacity:0,scale:0
       }} animate={{ y: 0,opacity:1,scale:1}}
-  transition={{duration:2, ease:"anticipate" }} className=' mt-7 h-[510px]  w-[290px] sm:w-[340px] ring-1 items-center flex flex-col    hover:shadow-2xl shadow-xl  ring-gray-100 rounded-lg p-7 hover:-translate-y-2  transition-shadow '>
+  transition={{duration:2, ease:"anticipate" }} className=' mt-7 h-[510px]  w-full sm:w-[340px] ring-1 items-center flex flex-col    hover:shadow-2xl shadow-xl  ring-gray-100 rounded-lg p-7 hover:-translate-y-2  transition-shadow '>
   <img src="5244722.jpg" width="210"/>
   <h2 className=' text-center text-xl font-semibold mt-4  '>Carbon Credits</h2> 
   <motion.p initial={{ y:100,opacity:0,scale:0}} whileInView={{ y: 0,opacity:1,scale:1}}
@@ -24,7 +24,7 @@ transition={{duration:2, ease:"anticipate" }}p className='text-center  sm:text-l
 <div className='mt-5 p-2 justify-between space-x-3'><Link href="https://www.investopedia.com/terms/c/carbon_credit.asp" className=' p-3  text-sm  bg-black text-white font-semibold w-28 text-center     rounded-lg'>More info.</Link></div></motion.div>
 <motion.div initial={{ y:200,opacity:0,scale:0
       }} animate={{ y: 0,opacity:1,scale:1}}
-  transition={{duration:2, ease:"anticipate" }} className=' mt-7 h-[510px]  w-[290px] sm:w-[340px] ring-1 items-center flex flex-col    hover:shadow-2xl shadow-xl  ring-gray-100 rounded-lg p-7 hover:-translate-y-2  transition-shadow '>
+  transition={{duration:2, ease:"anticipate" }} className=' mt-7 h-[510px]  w-full sm:w-[340px] ring-1 items-center flex flex-col    hover:shadow-2xl shadow-xl  ring-gray-100 rounded-lg p-7 hover:-translate-y-2  transition-shadow '>
   <img src="hr_1.jpg" width="210"/>
   <h2 className=' text-center text-xl font-semibold mt-4  '>Human Resource</h2> 
   <motion.p initial={{ y:100,opacity:0,scale:0}} whileInView={{ y: 0,opacity:1,scale:1}}
@@ -34,7 +34,7 @@ transition={{duration:2, ease:"anticipate" }}p className='text-center  sm:text-l
 <div className='mt-5 p-2 justify-between space-x-3'><Link href="https://www.techtarget.com/searchhrsoftware/definition/human-resource-management-HRM" className=' p-3  text-sm  bg-black text-white font-semibold w-28 text-center   rounded-lg'>More info.</Link></div></motion.div>
 <motion.div initial={{ y:200,opacity:0,scale:0
       }} animate={{ y: 0,opacity:1,scale:1}}
-  transition={{duration:2, ease:"anticipate" }} className=' mt-7 h-[510px]  w-[290px] sm:w-[340px] ring-1 items-center flex flex-col    hover:shadow-2xl shadow-xl  ring-gray-100 rounded-lg p-7 hover:-translate-y-2  transition-shadow '>
+  transition={{duration:2, ease:"anticipate" }} className=' mt-7 h-[510px]  w-full sm:w-[340px] ring-1 items-center flex flex-col    hover:shadow-2xl shadow-xl  ring-gray-100 rounded-lg p-7 hover:-translate-y-2  transition-shadow '>
   <img src="3498796.jpg" width="210"/>
   <h2 className=' text-center text-xl font-semibold mt-4  '>Business Management</h2> 
   <motion.p initial={{ y:100,opacity:0,scale:0}} whileInView={{ y: 0,opacity:1,scale:1}}

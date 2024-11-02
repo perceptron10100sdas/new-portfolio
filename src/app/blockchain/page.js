@@ -14,7 +14,7 @@ transition={{duration:2, ease:"anticipate" }}p className='text-center  sm:text-l
 <div className='  flex justify-center'>
       <motion.div initial={{ y:200,opacity:0,scale:0
       }} animate={{ y: 0,opacity:1,scale:1}}
-  transition={{duration:2, ease:"anticipate" }} className=' mt-7 h-[510px]  w-[290px] sm:w-[340px] ring-1 items-center flex flex-col    hover:shadow-2xl shadow-xl  ring-gray-100 rounded-lg p-7 hover:-translate-y-2  transition-shadow '>
+  transition={{duration:2, ease:"anticipate" }} className=' mt-7 h-[510px]  w-full sm:w-[340px] ring-1 items-center flex flex-col    hover:shadow-2xl shadow-xl  ring-gray-100 rounded-lg p-7 hover:-translate-y-2  transition-shadow '>
   <img src="9436275.jpg" width="210"/>
   <h2 className=' text-center text-xl font-semibold mt-4  '>Voting Proposal</h2> 
   <motion.p initial={{ y:100,opacity:0,scale:0}} whileInView={{ y: 0,opacity:1,scale:1}}
