@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import { Dispatch, SetStateAction, useState } from "react";
 import { IconType } from "react-icons";
 import Link from "next/link";
+import { CiUser } from "react-icons/ci";
 
 const StaggeredDropDown = () => {
   const [open, setOpen] = useState(false);
@@ -33,9 +34,10 @@ const StaggeredDropDown = () => {
           style={{ originY: "top", translateX: "-50%" }}
           className="flex flex-col gap-2 p-2 rounded-lg  bg-white shadow-xl absolute top-[120%] left-[50%] w-48 overflow-hidden"
         >
+           <Link href="/about"><Option setOpen={setOpen} Icon={CiUser} text="About" /></Link>
           <Link href="/skills"><Option setOpen={setOpen} Icon={FiEdit} text="Skills" /></Link>
-          <Link href="/skills"> <Option setOpen={setOpen} Icon={FiPlusSquare} text="Projects" /></Link>
-          <Link href="/skills">  <Option setOpen={setOpen} Icon={FiShare} text="Connect" /></Link>
+          <Link href="/websites"> <Option setOpen={setOpen} Icon={FiPlusSquare} text="Projects" /></Link>
+          <Link href="https://perceptron10100-sambhavdas.vercel.app/contact">  <Option setOpen={setOpen} Icon={FiShare} text="Connect" /></Link>
         </motion.ul>
       </motion.div>
     </div>
