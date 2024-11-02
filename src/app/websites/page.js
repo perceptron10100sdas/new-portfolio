@@ -44,7 +44,7 @@ transition={{duration:2, ease:"anticipate" }}p className='text-center  sm:text-l
       </div>
       <div className=' sm:flex justify-around sm:mt-4'>
       <motion.div initial={{ y:100,opacity:0,scale:0}} whileInView={{ y: 0,opacity:1,scale:1}}
-  transition={{duration:1, ease:"anticipate" }} className=' mt-7 h-[505px]  sm:h-[490px] w-[290px] sm:w-[340px] ring-1 flex flex-col items-center     ring-gray-100 rounded-lg  p-8  hover:shadow-2xl shadow-xl hover:-translate-y-2   transition-shadow '>
+  transition={{duration:1, ease:"anticipate" }} className=' mt-7 h-[505px]  sm:h-[490px] w-full sm:w-[340px] ring-1 flex flex-col items-center     ring-gray-100 rounded-lg  p-8  hover:shadow-2xl shadow-xl hover:-translate-y-2   transition-shadow '>
   <img src="3944966.jpg" width="220" />
   <h2 className=' text-center text-xl font-semibold mt-8 '>Google</h2> 
   <motion.p initial={{ y:100,opacity:0,scale:0}} whileInView={{ y: 0,opacity:1,scale:1}}
@@ -52,7 +52,7 @@ transition={{duration:2, ease:"anticipate" }}p className='text-center  sm:text-l
   <motion.p initial={{ y:-100,scale:0}} whileInView={{ y: 0,scale:1}}  transition={{duration:2, ease:"anticipate" }} className=' text-start mt-2 text-sm  font-bold'>Do the right thing!</motion.p>
   <div className='mt-4 p-2 justify-between space-x-3'><Link href="https://github.com/perceptron10100sdas/google-clone" className=' p-3  text-sm  bg-white text-black font-semibold w-28 text-center  ring-1 ring-black   rounded-lg'>Source code</Link><Link href="https://google-clone-lyart-gamma.vercel.app/" className=' p-3  text-sm  bg-black text-white font-semibold w-28 text-center   rounded-lg'>Live at.</Link></div></motion.div>
 <motion.div initial={{ y:100,opacity:0,scale:0}} whileInView={{ y: 0,opacity:1,scale:1}}
-  transition={{duration:1, ease:"anticipate" }} className=' mt-7 h-[505px]  sm:h-[490px] w-[290px] sm:w-[340px] ring-1 flex flex-col items-center     ring-gray-100 rounded-lg  p-8  hover:shadow-2xl shadow-xl hover:-translate-y-2   transition-shadow '>
+  transition={{duration:1, ease:"anticipate" }} className=' mt-7 h-[505px] w-full  sm:h-[490px] sm:w-[340px] ring-1 flex flex-col items-center     ring-gray-100 rounded-lg  p-8  hover:shadow-2xl shadow-xl hover:-translate-y-2   transition-shadow '>
   <img src="7495699.jpg" width="220" />
   <h2 className=' text-center text-xl font-semibold mt-8 '>Starbucks</h2> 
   <motion.p initial={{ y:100,opacity:0,scale:0}} whileInView={{ y: 0,opacity:1,scale:1}}
